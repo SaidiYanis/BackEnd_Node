@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6", // ou une version plus récente comme "es2017" selon ton environnement
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"], // Assure-toi que cela pointe vers ton dossier source
+  "exclude": ["node_modules"]
+}
